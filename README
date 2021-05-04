@@ -12,6 +12,25 @@ Use the `master` branch to pull in changes from the original dwm repository.
 Use `patched` to merge in new commits from the upstream into my own patched version of dwm.
 
 
+Applied patches
+---------------
+
+- attachtop: newly created terminals are not on the master, but on top of the non-master stack.
+- pertag: layout settings are saved per tag, so you can e.g. have monocle on one and tabbed on the other.
+- push_no_master: push focused window up and down the stack, but not the master (because the zoom() function already takes care of that)
+
+
+Tutorial for applying
+---------------------
+
+See https://suckless.org/hacking/ .
+
+In principle `git apply patches/patch.diff -3v` (3v for 3-way merge) .
+Some patches may be formatted differently.
+In that case, try `git am` (see suckless tutorial ).
+Don't forget to run `make clean install`.
+
+
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
