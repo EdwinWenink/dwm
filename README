@@ -6,7 +6,7 @@ dwm is an extremely fast, small, and dynamic window manager for X.
 Maintenance of this fork
 ------------------------
 
-This repository has two remotes: `origin` for https://github.com/EdwinWenink/dwm and `upstream` for https://github.com/EdwinWenink/dwm .
+This repository has two remotes: `origin` for https://github.com/EdwinWenink/dwm and `upstream` for https://git.suckless.org/dwm/ .
 
 Use the `master` branch to pull in changes from the original dwm repository. 
 Use `patched` to merge in new commits from the upstream into my own patched version of dwm.
