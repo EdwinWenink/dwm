@@ -11,6 +11,7 @@ This repository has two remotes: `origin` for https://github.com/EdwinWenink/dwm
 Use the `master` branch to pull in changes from the original dwm repository. 
 Use `patched` to merge in new commits from the upstream into my own patched version of dwm.
 
+
 Requirements
 ------------
 In order to build dwm you need the Xlib header files.
