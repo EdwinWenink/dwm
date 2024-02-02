@@ -35,6 +35,8 @@ Requirements
 ------------
 In order to build dwm you need the Xlib header files.
 
+On Arch Linux, install `xorg-server`, `libxft`, and `libxinerama`.
+
 
 Installation
 ------------
